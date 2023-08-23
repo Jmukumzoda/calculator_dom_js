@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.counter {
+    background-color: skyblue;
+    width: 300px;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.plus {
+    width: 57px;
+    border-radius: 135px;
+    height: 46px;
+    border: none;
+    position: relative;
+    left: 216px;
+    top: 47px;
+}
+
+.center {
+    margin-top: 85px;
+}
+.minus{
+    left: -135px;
+    width: 57px;
+    border-radius: 135px;
+    height: 46px;
+    border: none;
+    position: relative;
+    top: 47px;
+}
+.notnumber{
+    width: 96px;
+    border: none;
+    background-color: darkorange;
+    height: 38px;
+    border-radius: 172px;
+    left: -61px;
+    top: -24px;
+    position: relative;
+}
+.random{
+    width: 96px;
+    border: none;
+    background-color: darkorange;
+    height: 38px;
+    border-radius: 172px;
+    left: -1px;
+    top: 103px;
+    position: relative;
+}
