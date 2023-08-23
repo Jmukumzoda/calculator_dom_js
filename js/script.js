@@ -70,20 +70,21 @@ let count = 0
 function calculator() {
     p.innerHTML = count;
 }
-plus.addEventListener('click', function () {
+plus.onclick = () => {
     count++;
     calculator()
-});
-minus.addEventListener('click', function () {
+};
+minus.onclick = () => {
     count--;
     calculator()
-});
-random.addEventListener('click', function () {
+}
+random.onclick = () =>{
     count = Math.floor(Math.random() * 11);
     calculator();
-});
+    
+}
 
-notnumber.addEventListener('click', function () {
+notnumber.onclick = () =>{
     count = 0
     calculator()
-});
+}
